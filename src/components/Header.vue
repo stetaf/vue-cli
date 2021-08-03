@@ -1,6 +1,6 @@
 <template>
   <header>
-    <img src="https://fontmeme.com/temporary/4326ebd4aaad8208a906a6850f07aa1c.png" alt="">
+    <img src="./../assets/logo.png" alt="">
   </header>
 </template>
 
