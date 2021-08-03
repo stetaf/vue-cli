@@ -1,10 +1,6 @@
 <template>
   <header>
-    <div class="container">
-      <div class="row">
-        <img src="https://fontmeme.com/temporary/4326ebd4aaad8208a906a6850f07aa1c.png" alt="">
-      </div>
-    </div>
+    <img src="https://fontmeme.com/temporary/4326ebd4aaad8208a906a6850f07aa1c.png" alt="">
   </header>
 </template>
 
