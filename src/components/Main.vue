@@ -2,7 +2,11 @@
   <main>
     <div class="container">
       <div class="row">
-
+        <div class="col-3" v-for="(movie, index) in movies" :key="movie.id">
+          <div :class="[(index < 4) ? 'card mb-3 mt-3' : 'card mb-3 ']">
+            <img :src="'https://image.tmdb.org/t/p/w342' + movie.poster_path" :alt="movie.original_title + ' cover'">
+          </div>
+        </div>
       </div>
     </div>
   </main>
