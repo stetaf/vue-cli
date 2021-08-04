@@ -5,11 +5,12 @@ import VueRouter from 'vue-router'
 Vue.config.productionTip = false
 Vue.use(VueRouter)
 
+const Main = () => import('./components/Main.vue')
 const Log = () => import('./components/core/auth/Login.vue')
 const Reg = () => import('./components/core/auth/Register.vue')
 
 const routes = [
-  { path: '/' },
+  { path: '/', component: Main },
   { path: '/login', component: Log },
   { path: '/register', component: Reg }
 ]
