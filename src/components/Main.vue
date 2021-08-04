@@ -1,11 +1,9 @@
 <template>
-  <main>
-    <div class="container">
-      <div class="row">
-        <Movie v-for="(movie, num) in movies" :key="movie.id" :movie="movie" :num="num"/>
-      </div>
+  <div class="container">
+    <div class="row">
+      <Movie v-for="(movie, num) in movies" :key="movie.id" :movie="movie" :num="num"/>
     </div>
-  </main>
+  </div>
 </template>
 
 <script>
