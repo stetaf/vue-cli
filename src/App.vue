@@ -32,4 +32,12 @@ export default {
   text-align: center;
   color: #2c3e50;
 }
+
+button {
+    background-color: #dc1a28 !important;
+    border: unset !important;
+}
+button:hover {
+    background-color: #831018 !important;
+}
 </style>
