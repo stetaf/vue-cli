@@ -9,6 +9,7 @@ const Log = () => import('./components/core/auth/Login.vue')
 const Reg = () => import('./components/core/auth/Register.vue')
 
 const routes = [
+  { path: '/' },
   { path: '/login', component: Log },
   { path: '/register', component: Reg }
 ]
